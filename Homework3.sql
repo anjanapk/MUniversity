@@ -97,7 +97,7 @@ Select distinct GuestName from Rooms order by GuestName ASC;
 
 */
 
-Select distinct GuestName from Rooms order by GuestName ASC;
+Select GuestName from Rooms order by GuestName ASC;
 
 
 /*
