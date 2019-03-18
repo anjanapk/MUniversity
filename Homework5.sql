@@ -28,7 +28,7 @@ and expert (10+) for their classes (Don’t alter the table for this)
 Select GuestName, GuestClassId, LevelId,  "Class Level" =   
       CASE   
 
-         WHEN LevelID >= 1 and LevelID < 4 THEN 'Beginner'  
+         WHEN LevelID >= 1 and LevelID <= 4 THEN 'Beginner'  
          WHEN LevelID >= 5 and LevelID <= 10 THEN 'Intermediate'  
          WHEN LevelID > 10 THEN 'Expert'  
          ELSE '  '  
