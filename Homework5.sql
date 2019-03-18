@@ -55,7 +55,7 @@ BEGIN
 	 SET @Grouping = 
 	CASE   
 	
-         WHEN @Level >= 1 and @Level < 4 THEN 'Beginner'  
+         WHEN @Level >= 1 and @Level <= 4 THEN 'Beginner'  
          WHEN @Level >= 5 and @Level <= 10 THEN 'Intermediate'  
          WHEN @Level > 10 THEN 'Expert'  
          ELSE '  '  
